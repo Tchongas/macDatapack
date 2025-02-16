@@ -1,0 +1,1 @@
+scoreboard players add @s digit4 3

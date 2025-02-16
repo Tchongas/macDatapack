@@ -1,0 +1,30 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "zzz",
+      " x ",
+      " x "
+    ],
+    "key": {
+      "z": [
+        "minecraft:cobblestone",
+        "minecraft:deepslate",
+        "minecraft:stone"
+      ],
+      "x": [
+        "minecraft:stick"
+      ]
+    },
+    "result": {
+      "id": "minecraft:stone_pickaxe",
+      "components": {
+        "minecraft:item_name": "\"Mega MAC Ultra Pro Chunk Obliterator\"",
+        "minecraft:lore": [
+          "{\"text\":\"Property of MAC co.\",\"italic\":true,\"color\":\"gray\"}"
+        ]
+      },
+
+      "count": 1
+    }
+  }

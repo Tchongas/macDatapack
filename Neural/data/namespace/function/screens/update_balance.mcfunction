@@ -1,0 +1,1 @@
+data modify entity @e[tag=atm_balance,limit=1] text set value '[{"text":"Balance: $","color":"yellow"},{"score":{"name":"@p","objective":"digit1"}},{"text":","},{"score":{"name":"@p","objective":"digit2"}},{"score":{"name":"@p","objective":"digit3"}},{"score":{"name":"@p","objective":"digit4"}},{"score":{"name":"@p","objective":"digit5"}}]'

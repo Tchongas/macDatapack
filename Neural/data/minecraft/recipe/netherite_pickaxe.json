@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+      "zzz",
+      " x ",
+      " x "
+    ],
+    "key": {
+      "z": [
+        "minecraft:netherite_pickaxe"
+      ],
+      "x": [
+        "minecraft:stick"
+      ]
+    },
+    "result": {
+      "id": "minecraft:netherite_pickaxe",
+      "components": {
+        "minecraft:item_name": "\"Mega MAC Hyper Super Ultra Pro Chunk Obliterator AMOLED Dark Mode\"",
+        "minecraft:lore": [
+          "{\"text\":\"Property of MAC co.\",\"italic\":true,\"color\":\"gray\"}"
+        ]
+      },
+
+      "count": 1
+    }
+  }
