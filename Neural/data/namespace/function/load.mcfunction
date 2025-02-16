@@ -31,4 +31,8 @@ scoreboard players set #atm_state atm_temp 0
 
 scoreboard objectives add temp dummy
 
+scoreboard objectives add bank trigger
+scoreboard objectives add spotify trigger
+scoreboard objectives add twitter trigger
+
 data modify entity @e[tag=atm_balance,limit=1] text set value '["Balance: $",{"score":{"name":"@p","objective":"digit1"}},{"text":","},{"score":{"name":"@p","objective":"digit2"}},{"score":{"name":"@p","objective":"digit3"}},{"score":{"name":"@p","objective":"digit4"}},{"score":{"name":"@p","objective":"digit5"}}]'

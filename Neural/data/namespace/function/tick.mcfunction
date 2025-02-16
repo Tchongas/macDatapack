@@ -105,7 +105,7 @@ execute as @a unless score @s digit3 matches -2147483648..2147483647 run scorebo
 execute as @a unless score @s digit4 matches -2147483648..2147483647 run scoreboard players set @s digit4 0
 execute as @a unless score @s digit5 matches -2147483648..2147483647 run scoreboard players set @s digit5 0
 
-
+function namespace:cellphone/main/phone-triggers
 
 execute as @a run title @s actionbar [{"text":"$"},{"score":{"name":"@s","objective":"digit1"}},{"text":","},{"score":{"name":"@s","objective":"digit2"}},{"score":{"name":"@s","objective":"digit3"}},{"score":{"name":"@s","objective":"digit4"}},{"score":{"name":"@s","objective":"digit5"}}]
 
