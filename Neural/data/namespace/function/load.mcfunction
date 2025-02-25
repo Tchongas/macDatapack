@@ -31,8 +31,23 @@ scoreboard players set #atm_state atm_temp 0
 
 scoreboard objectives add temp dummy
 
+scoreboard objectives add backtohomescreen trigger
+
 scoreboard objectives add bank trigger
 scoreboard objectives add spotify trigger
 scoreboard objectives add twitter trigger
+
+scoreboard objectives add spotify_song1 trigger
+scoreboard objectives add spotify_song2 trigger
+scoreboard objectives add spotify_song3 trigger
+scoreboard objectives add spotify_song4 trigger
+scoreboard objectives add spotify_stop trigger
+
+scoreboard objectives add bank_withdraw_1 trigger
+scoreboard objectives add bank_withdraw_5 trigger
+scoreboard objectives add bank_withdraw_10 trigger
+scoreboard objectives add bank_withdraw_50 trigger
+
+scoreboard objectives add cellphone_used minecraft.used:minecraft.carrot_on_a_stick
 
 data modify entity @e[tag=atm_balance,limit=1] text set value '["Balance: $",{"score":{"name":"@p","objective":"digit1"}},{"text":","},{"score":{"name":"@p","objective":"digit2"}},{"score":{"name":"@p","objective":"digit3"}},{"score":{"name":"@p","objective":"digit4"}},{"score":{"name":"@p","objective":"digit5"}}]'
