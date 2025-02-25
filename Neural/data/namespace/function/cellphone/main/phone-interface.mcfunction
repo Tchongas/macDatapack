@@ -15,5 +15,8 @@ tellraw @s ["",{"text":"\n 🎵 ","color":"green"},{"text":"Spotify","color":"gr
 
 tellraw @s ["",{"text":"\n 𝕏 ","color":"white"},{"text":"X the everything app","color":"white","clickEvent":{"action":"run_command","value":"/trigger twitter"},"hoverEvent":{"action":"show_text","contents":"Click to check your balance"}}]
 
+#TP to chunk button
+tellraw @s ["",{"text":"\n 🏠 ","color":"white"},{"text":"Teleport to Chunk","color":"aqua","clickEvent":{"action":"run_command","value":"/tptochunk"},"hoverEvent":{"action":"show_text","contents":"Teleport to chunk"}}]
+
 # Phone footer
 tellraw @s ["",{"text":"\n ═══════════════","color":"gray"},{"text":"\n"}]
