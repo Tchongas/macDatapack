@@ -10,6 +10,7 @@
       "z": [
         "minecraft:cobblestone",
         "minecraft:deepslate",
+        "cobbled_deepslate",
         "minecraft:stone"
       ],
       "x": [
