@@ -15,8 +15,6 @@ execute as @a if score @s digit2 matches 10.. run scoreboard players add @s digi
 execute as @a if score @s digit2 matches 10.. run scoreboard players remove @s digit2 10
 
 # Handle negative numbers (from left to right)
-execute as @a if score @s digit5 matches ..-1 run scoreboard players remove @s digit4 1
-execute as @a if score @s digit5 matches ..-1 run scoreboard players add @s digit5 10
 
 execute as @a if score @s digit4 matches ..-1 run scoreboard players remove @s digit3 1
 execute as @a if score @s digit4 matches ..-1 run scoreboard players add @s digit4 10
@@ -26,6 +24,12 @@ execute as @a if score @s digit3 matches ..-1 run scoreboard players add @s digi
 
 execute as @a if score @s digit2 matches ..-1 run scoreboard players remove @s digit1 1
 execute as @a if score @s digit2 matches ..-1 run scoreboard players add @s digit2 10
+
+execute as @a if score @s digit1 matches ..-1 run scoreboard players set @s digit5 0 
+execute as @a if score @s digit1 matches ..-1 run scoreboard players set @s digit4 0 
+execute as @a if score @s digit1 matches ..-1 run scoreboard players set @s digit3 0 
+execute as @a if score @s digit1 matches ..-1 run scoreboard players set @s digit2 0
+execute as @a if score @s digit1 matches ..-1 run scoreboard players set @s digit1 0
 
 execute as @a unless score @s digit1 matches -2147483648..2147483647 run scoreboard players set @s digit1 0
 execute as @a unless score @s digit2 matches -2147483648..2147483647 run scoreboard players set @s digit2 0

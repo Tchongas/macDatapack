@@ -3,7 +3,7 @@
 
 execute as @a[scores={bank=1..}] run function namespace:cellphone/phoneapps/bank
 execute as @a[scores={spotify=1..}] run function namespace:cellphone/phoneapps/spotify
-execute as @a[scores={twitter=1..}] run function namespace:cellphone/phoneapps/twitter
+execute as @a[scores={twitter=1..}] run function namespace:cellphone/main/functions/twitter/setchat
 execute as @a[scores={backtohomescreen=1..}] run function namespace:cellphone/main/functions/backtohomescreen
 
 #Sptofiy
